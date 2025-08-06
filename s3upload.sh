@@ -1,4 +1,7 @@
 #!/bin/bash
+#
+# Author: prashant choudhary
+# description: to extract the jenkins build logs and upload them to s3 bucket instead of ELK stack leads to 50% cost optimization
 
 # Variables
 JENKINS_HOME="/var/lib/jenkins"  # Replace with your Jenkins home directory
